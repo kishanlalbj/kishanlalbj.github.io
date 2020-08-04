@@ -170,3 +170,16 @@ section {
 ion-icon {
   color: crimson;
 }
+
+.footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 80px 0;
+  font-size: 80%;
+  font-weight: 300;
+}
+
+.footer-col {
+  width: 33.3%;
+  align-items: center;
+}
