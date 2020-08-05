@@ -177,6 +177,69 @@ ion-icon {
   color: crimson;
 }
 
+.grid-container .projects {
+  align-content: space-between;
+}
+
+#projects {
+  background-color: crimson;
+}
+
+#projects h2 {
+  color: #ffffff;
+}
+
+#projects h2::after {
+  background-color: #ffffff;
+}
+.project {
+  align-items: center;
+  background-color: #ffffff;
+  width: 300px;
+  margin-left: 5%;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 90%;
+  min-height: 430px;
+  max-height: 455px;
+}
+
+.project h3,
+.project p {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.project div {
+  padding: 10px;
+  text-align: center;
+}
+.project-link:hover,
+.project-link:active,
+.project-link:visited,
+.project-link:link {
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: crimson;
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  border: 1px solid crimson;
+}
+
+.project-link:hover {
+  background-color: #ffffff;
+  color: crimson;
+  border: 1px solid crimson;
+}
+
+.project-img {
+  border-radius: 4px;
+  padding: 10%;
+  width: 100%;
+  height: 250px;
+  max-height: 250px;
+}
 .footer {
   background-color: #333;
   color: #ffffff;
