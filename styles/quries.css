@@ -45,4 +45,7 @@
     width: 100% !important;
     margin-bottom: 30px;
   }
+  .primary-text {
+    font-size: 200% !important;
+  }
 }
