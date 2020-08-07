@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Red+Rose:wght@300;400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./styles/animate.css">
   <link rel="stylesheet" href="styles/quries.css">
   <link rel="stylesheet" href="styles/style.css">
@@ -64,6 +67,29 @@
   </header>
 
   <main>
+    <section id="about">
+      <div class="container">
+        <h2 class="subtitle">About Me</h2>
+        <div class="grid-container about">
+          <div>
+            <ul class="about-me-list">
+              <li>
+                <p> I am a passionate full stack developer with over 4 years of industry experience.
+                  I'm quietly confident, naturally curious, and perpetually working on improving my chops one design
+                  problem at a time.
+                </p>
+              </li>
+            </ul>
+
+          </div>
+          <div>
+            <img src="./images/summary.svg" alt="summary" width="100%" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section id="features">
       <div class="container">
         <h2 class="subtitle">Areas of Work</h2>
@@ -71,26 +97,22 @@
           <div class="feature">
             <h3>UI/UX</h3>
             <p>
-              I have designed user experience for several web apps and also built user interfaces using HTML5, CSS3,
-              Javascript and also with front end
-              frameworks like ReactJS.
+              Designed and developed user experience and interfaces with popular front end frameworks like ReactJS
             </p>
           </div>
 
           <div class="feature">
             <h3>Backend</h3>
             <p>
-              Worked on designing and building RESTful API services for several web apps in frameworks like NodeJS and
-              ExpressJS. Designed data models for appropriate to the web apps.
+              Built RESTful API services in NodeJS using expressjs and mongoose.
             </p>
           </div>
 
           <div class="feature">
             <h3>DevOps</h3>
             <p>
-              Deployed my web application to AWS EC2 instances. Written Continuous Integration and Continuous Delivery
-              pipeline in Jenkins, Ansible
-              for smoother and quicker releases.
+              Dockerized and deployed web apps. Automated time consuming process with Python
+
             </p>
           </div>
         </div>
@@ -199,6 +221,29 @@
         </div>
       </div>
     </section>
+
+    <!-- <section id="contact-me">
+      <div class="container">
+        <h2 class="subtitle">Contact Me</h2>
+
+        <form class="form-container form">
+          <div>
+            <label>Name</label>
+            <input type="text" class="form-text" name="name" placeholder="Your name">
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="email" class="form-text" required placeholder="Your email">
+          </div>
+          <div>
+            <label>Message</label>
+            <br>
+            <textarea size="150" class="textarea" name="message" placeholder="Your message"> </textarea>
+          </div>
+          <input type="submit" class="btn" />
+        </form>
+      </div>
+    </section> -->
 
     <footer class="footer">
       <div class="container">

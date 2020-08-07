@@ -19,10 +19,15 @@
 /* ------------------------ */
 @media only screen and (max-width: 767px) {
   .feature,
-  .skills-container {
+  .skills-container,
+  .about div {
     width: 100% !important;
   }
-
+  .about-me-list {
+    position: initial !important;
+    top: 0% !important;
+    transform: translate(0%, 0%) !important;
+  }
   .skills-list {
     margin-top: 10px;
   }
@@ -40,7 +45,10 @@
   .skills-container:nth-child(2) {
     margin: 0 25%;
   }
-
+  .form-container div:first-child,
+  .form-container div:nth-child(2) {
+    width: 100% !important;
+  }
   .project {
     width: 100% !important;
     margin-bottom: 30px;
